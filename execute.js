@@ -137,26 +137,26 @@ function hourstime() {
           
           if (currentFormattedTime > targetTime1) {
             status1.innerHTML =
-              '<span class="completed-text" style="color:rgb(108,242,108)">&nbsp;Allowed</span>';
+              '<span class="completed-text" style="color:green">&nbsp;Allowed</span>';
           } else {
             status1.innerHTML =
-              '<span class="completed-text" style="color:rgb(240, 55, 55)">&nbsp;Not Allowed</span>';
+              '<span class="completed-text" style="color:red">&nbsp;Not Allowed</span>';
           }
 
           if (currentFormattedTime > targetTime2) {
             status2.innerHTML =
-              '<span class="completed-text" style="color:rgb(108,242,108)">&nbsp;Allowed</span>';
+              '<span class="completed-text" style="color:green">&nbsp;Allowed</span>';
           } else {
             status2.innerHTML =
-              '<span class="completed-text" style="color:rgb(240, 55, 55)">&nbsp;Not Allowed</span>';
+              '<span class="completed-text" style="color:red">&nbsp;Not Allowed</span>';
           }
 
           if (currentFormattedTime > targetTime3) {
             status3.innerHTML =
-              '<span class="completed-text" style="color:rgb(108,242,108)">&nbsp;Allowed</span>';
+              '<span class="completed-text" style="color:green">&nbsp;Allowed</span>';
           } else {
             status3.innerHTML =
-              '<span class="completed-text" style="color:rgb(240, 55, 55)">&nbsp;Not Allowed</span>';
+              '<span class="completed-text" style="color:red">&nbsp;Not Allowed</span>';
           }
 
           // Calculate remainingHours and remainingMinutes here
